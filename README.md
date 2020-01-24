@@ -8,8 +8,8 @@ Its the online copy of the project "Item Catalog" on linux server(Ubuntu).
 4. Application url: http://3.8.237.195.xip.io/
 
 # How to login as grader?
-1- To login you need to use the ssh-key which i added in the "Notes to Reviewer" 
-2- you need to use command line and type:
+1. To login you need to use the ssh-key which i added in the "Notes to Reviewer" 
+2. you need to use command line and type:
 `ssh grader@3.8.237.195 -p 2200 -i ~/.ssh/project`
 
 # Downloaded application list:
@@ -28,10 +28,10 @@ postgresql,
 postgresql-contrib,
 
 # Configurations made:
-1- Configure the Uncomplicated Firewall only allow incoming connections for SSH (port 2200), HTTP (port 80), and NTP (port 123).
-2- Configure the local timezone to UTC
+1. Configure the Uncomplicated Firewall only allow incoming connections for SSH (port 2200), HTTP (port 80), and NTP (port 123).
+2. Configure the local timezone to UTC
 
 # third-party resources used to complete this project:
-1- Apache documentation
-2- Flask documentation mod_wsgi (Apache)
+1. Apache documentation
+2. Flask documentation mod_wsgi (Apache)
 
